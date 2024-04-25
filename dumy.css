@@ -1,0 +1,734 @@
+
+
+@media only screen and (max-width: 600px) {
+    .achivement {
+      font-size: 10px; /* Adjust font size for smaller screens */
+      padding-top: 8px; /* Adjust padding top for smaller screens */
+      padding-bottom: 8px;
+      align-content: center;
+      margin-right: 80px; /* Adjust padding bottom for smaller screens */
+    }
+    .carousel-item img {
+          height: 10px;
+          width: 50px; /* Adjust height for larger screens */
+        }
+        .mission {
+          font-size: 24px; /* Adjust font size for smaller screens */
+          padding: 20px; /* Adjust padding for smaller screens */
+        }
+        .missionimg {
+          margin-left: 20px; /* Adjust margin for smaller screens */
+          height: 250px; /* Adjust height for smaller screens */
+        }
+        .missionimg+h3 {
+          margin-right: 20px; /* Adjust margin for smaller screens */
+          margin-top: 10px; /* Adjust margin for smaller screens */
+        }
+        .vision {
+          font-size: 24px; /* Adjust font size for smaller screens */
+          padding: 20px; /* Adjust padding for smaller screens */
+        }
+        .spacer.vision {
+          margin-top: 50%; /* Adjust margin-top for smaller screens */
+          font-size: 24px; /* Adjust font size for smaller screens */
+        }
+        
+        .visionimg {
+          height: auto; /* Adjust height for smaller screens */
+          width: 90%; /* Adjust width for smaller screens */
+          margin: 20px auto; /* Center align and adjust margin for smaller screens */
+        }
+        
+        .subtitle {
+          font-size: 24px; /* Adjust font size for smaller screens */
+        }}
+
+
+
+
+
+        /*coursepage
+
+
+.container {
+      display: flex;
+      align-items: center;
+}
+
+.left,
+.right {
+      flex: 1;
+}
+
+form {
+      display: flex;
+      align-items: center;
+
+}
+
+.left p {
+      font-size: 70px;
+      font-family: 'Times New Roman', Times, serif;
+      margin-left: 10px;
+}
+
+input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-right: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+}
+
+button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      border-radius: 10%;
+}
+
+ Responsive styles 
+@media only screen and (max-width: 768px) {
+      .container {
+            flex-direction: column;
+      }
+
+      .left,
+      .right {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+      }
+}
+
+.ourcourses {
+      font-size: 70px;
+      margin-left: 10px;
+      margin-top: 20px;
+      font-family: 'Times New Roman', Times, serif;
+}
+
+
+.col img {
+      transition: transform 0.8s ease-in-out;
+
+      
+}
+
+.courserows .col img:hover {
+      transform: scale(1.2);
+      opacity: 0.2;
+      
+}
+
+.courserows .col img:hover::after {
+      opacity: 6;
+      background-color: rgba(8, 7, 7, 0.5);
+  }
+
+
+.courserows .col img {
+      width: 200%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      border-radius: 10%;
+      margin-bottom: 20%;
+
+}
+
+.col:nth-child(2) .box {
+      border: 2px solid black;
+      width: 50%; 
+      height: 80%;
+      padding: 2px;
+      margin-bottom: 30%;
+      border-radius: 20px;
+      margin-left: 20%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      list-style-type: none;
+
+
+
+}
+
+.ourcourses {
+      font-size: 50px;
+      margin-top: 20px;
+      font-family: 'Times New Roman', Times, serif;
+}
+
+      
+
+.carousel-item {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      animation-fill-mode: forwards;
+      animation-duration: 4s;
+}
+
+
+
+
+.neet {
+      background-color: blue;
+
+      color: white;
+
+      padding: 2px;
+      margin-left: 30%;
+      margin-right: 30%;
+      position: relative;
+      top: -50%;
+      transform: translateY(-15%);
+
+
+}
+
+body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+      margin-right: 0;
+      margin-left: 0;
+}
+
+.faq-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box ul {
+      list-style: none;
+      padding: 0;
+      display: flexbox;
+     
+
+
+}
+.courserows .box{
+      margin-left: -20px;
+}
+
+.box ul li:before {
+      content: "\25B8";
+     
+      font-weight: bold;
+      
+      margin-right: 5px;
+    
+}
+
+.box ul li {
+      text-indent: -1.5em;
+       
+}*/
+.ourcourses {
+  font-size: 70px;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.courserows {
+ 
+  margin-bottom: 20px;
+}
+.left,
+.right {
+  flex: 1;
+}
+
+form {
+  display: flex;
+  align-items: center;
+
+}
+
+.left p {
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 10px;
+}
+
+input[type="email"] {
+  width: 50%;
+  padding: 10px;
+  margin-left: -100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+
+.col {
+  flex: 1;
+  padding: 0px;
+ 
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: #f0f0f0; 
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 20px 100px 20px 100px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.neet {
+  background-color: blue;
+  color: white;
+  padding: 2px;
+  margin: 0px 290px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.amount {
+  text-align: center;
+}
+
+.amount p {
+  margin: 5px 0;
+}
+
+.amount hr {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.lilist ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.lilist ul li {
+  margin-bottom: 5px;
+}
+
+/* Image styles */
+.courserows .col img {
+  width: 70%;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.8s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.courserows .col:hover img {
+  transform: scale(1.2);
+  opacity: 0.6;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .courserows {
+      flex-direction: column;
+  }
+
+  .col {
+      width: 100%;
+  }
+}
+
+
+
+.testimonial {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.testimonial-image img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+.testimonial-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.testimonial-details {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.testimonial-details p {
+  margin-bottom: 5px;
+}
+
+.author {
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  color: #000;
+  text-shadow: none;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-size: 24px;
+}
+
+.carousel-control-prev {
+  margin-left: -50px;
+}
+
+.carousel-control-next {
+  margin-right: -50px;
+}
+/*---------------------------------------------------------------------------------------*/
+
+
+/*coursepage
+
+
+.container {
+      display: flex;
+      align-items: center;
+}
+
+.left,
+.right {
+      flex: 1;
+}
+
+form {
+      display: flex;
+      align-items: center;
+
+}
+
+.left p {
+      font-size: 70px;
+      font-family: 'Times New Roman', Times, serif;
+      margin-left: 10px;
+}
+
+input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-right: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+}
+
+button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      border-radius: 10%;
+}
+
+ Responsive styles 
+@media only screen and (max-width: 768px) {
+      .container {
+            flex-direction: column;
+      }
+
+      .left,
+      .right {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+      }
+}
+
+.ourcourses {
+      font-size: 70px;
+      margin-left: 10px;
+      margin-top: 20px;
+      font-family: 'Times New Roman', Times, serif;
+}
+
+
+.col img {
+      transition: transform 0.8s ease-in-out;
+
+      
+}
+
+.courserows .col img:hover {
+      transform: scale(1.2);
+      opacity: 0.2;
+      
+}
+
+.courserows .col img:hover::after {
+      opacity: 6;
+      background-color: rgba(8, 7, 7, 0.5);
+  }
+
+
+.courserows .col img {
+      width: 200%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      border-radius: 10%;
+      margin-bottom: 20%;
+
+}
+
+.col:nth-child(2) .box {
+      border: 2px solid black;
+      width: 50%; 
+      height: 80%;
+      padding: 2px;
+      margin-bottom: 30%;
+      border-radius: 20px;
+      margin-left: 20%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      list-style-type: none;
+
+
+
+}
+
+.ourcourses {
+      font-size: 50px;
+      margin-top: 20px;
+      font-family: 'Times New Roman', Times, serif;
+}
+
+      
+
+.carousel-item {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      animation-fill-mode: forwards;
+      animation-duration: 4s;
+}
+
+
+
+
+.neet {
+      background-color: blue;
+
+      color: white;
+
+      padding: 2px;
+      margin-left: 30%;
+      margin-right: 30%;
+      position: relative;
+      top: -50%;
+      transform: translateY(-15%);
+
+
+}
+
+body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+      margin-right: 0;
+      margin-left: 0;
+}
+
+.faq-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box ul {
+      list-style: none;
+      padding: 0;
+      display: flexbox;
+     
+
+
+}
+.courserows .box{
+      margin-left: -20px;
+}
+
+.box ul li:before {
+      content: "\25B8";
+     
+      font-weight: bold;
+      
+      margin-right: 5px;
+    
+}
+
+.box ul li {
+      text-indent: -1.5em;
+       
+}*/
+.ourcourses {
+  font-size: 70px;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.courserows {
+ 
+  margin-bottom: 20px;
+}
+.left,
+.right {
+  flex: 1;
+}
+
+form {
+  display: flex;
+  align-items: center;
+
+}
+
+.left p {
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 10px;
+}
+
+input[type="email"] {
+  width: 50%;
+  padding: 10px;
+  margin-left: -100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+
+.col {
+  flex: 1;
+  padding: 0px;
+ 
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: #f0f0f0; 
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 20px 100px 20px 100px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.neet {
+  background-color: blue;
+  color: white;
+  padding: 2px;
+  margin: 0px 290px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.amount {
+  text-align: center;
+}
+
+.amount p {
+  margin: 5px 0;
+}
+
+.amount hr {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.lilist ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.lilist ul li {
+  margin-bottom: 5px;
+}
+
+/* Image styles */
+.courserows .col img {
+  width: 70%;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.8s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.courserows .col:hover img {
+  transform: scale(1.2);
+  opacity: 0.6;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .courserows {
+      flex-direction: column;
+  }
+
+  .col {
+      width: 100%;
+  }
+}
+

@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <link rel="icon" href="image/SALS.jpeg" type="image/x-icon"">
+  <title>SALS Educational Academy</title>
+
+  <!-- font awsome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+
+
+  <!-- styling css -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Script js -->
+  <script src="script.js"></script>
+
+
+</head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SALS Educational Academy</title>
+
+  <!-- font awsome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- styling css -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Script js -->
+  <script src="script.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  <!-- Other meta tags and stylesheets -->
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+
+
+
+</head>
+
+<style>
+  .background-clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Adjust to fill the entire viewport */
+    height: 100%;
+    /* Adjust to fill the entire viewport */
+    overflow: hidden;
+    /* Hide any overflowing content */
+  }
+
+  .video video{
+    position: relative;
+    width: 100%;
+    padding-bottom: 20px;
+
+    /* Set height to full viewport height */
+  }
+
+  .video  {
+    width: 100%;
+    /* Make video fill the container */
+    height: auto;
+    /* Ensure aspect ratio is maintained */
+    opacity:0.7;
+  }
+  .videocontainer {
+  position: relative;
+}
+
+.video {
+  position: relative;
+}
+
+.videocontent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.videocontent h2 {
+  font-size: 30px;
+  color: #fff;
+  margin: 0;
+  padding-bottom: 30px;
+  transition: 0.3s;
+  margin-top: 40%;
+  transition: font-size 0.3s ease;
+  
+}
+.videocontent h2:hover{
+  font-size: 40px;
+}
+
+.videocontent a {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: 0.4s;
+  
+
+}
+
+.videocontent a:hover {
+  background-color: #fff;
+  color: #000;
+  padding: 15 px 25px ;
+.videocontent h2:hover{
+  font-size: 40px;
+}
+.videocontent h2.large {
+  font-size: 50px;
+}
+
+}
+.videocontent h2.large {
+  font-size: 40px; /* Font size when class 'large' is present */
+}
+
+
+  @media screen and (max-width: 768px) {
+  .background-clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }}
+
+  .video video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .video {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+  }
+
+
+
+
+  /* Styling for course section */
+.neetimg {
+   
+transition: transform 0.4s ease-in-out;
+  
+  }
+  .neetimg:hover{
+    transform: scale(1.4);
+  }
+.courseimg img:hover {
+  transform: scale(1.2); 
+  
+}
+.neetimg{
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 10px;
+}
+
+  .coursedeatail {
+    padding: 20px;
+  }
+
+  .box {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+   margin-left: 20%;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(6, 6, 61);
+    color: white;
+    margin: 0px 70px 4px 70px;
+   
+    border-radius: 10px;
+  }
+
+  .amt p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .coursedeatail ul {
+    list-style-type: disc; /* Set the bullet style to disc (filled circle) */
+     padding-left: 10px;
+  }
+
+  .coursedeatail ul li {
+    margin-bottom: 10px;
+
+  }
+
+  .hr {
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  .coursedeatail p{
+    font-size: 20px;
+    text-align: center;
+  }
+  
+
+.coursecenter {
+  text-align: center;
+  font-size: 28px;
+  
+ 
+}
+</style>
+
+<body>
+
+
+  <!-- partial:index.partial.html -->
+  <nav>
+    <div class="wrapper">
+      <img src="image/SALS.jpeg" alt="" heigh="80" width="80">
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="#" class="desktop-item">Courses</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Mega Menu</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="image/hero section-image.png" alt="">
+              </div>
+              <div class="row">
+                <header>Sub Topic 1</header>
+                <ul class="mega-links">
+                  <li><a href="#">Title 1</a></li>
+                  <li><a href="#">Title 2</a></li>
+                  <li><a href="#">Title 3</a></li>
+                  <li><a href="#">Title 4</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Sub Topic 2</header>
+                <ul class="mega-links">
+                  <li><a href="#">Title 1</a></li>
+                  <li><a href="#">Title 2</a></li>
+                  <li><a href="#">Title 3</a></li>
+                  <li><a href="#">Title 4</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Sub Topic 3</header>
+                <ul class="mega-links">
+                  <li><a href="#">Title 1</a></li>
+                  <li><a href="#">Title 2</a></li>
+                  <li><a href="#">Title 3</a></li>
+                  <li><a href="#">Title 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="about2.html">About us</a></li>
+        <li><a href="teams.html">Teams</a></li>
+        <li>
+          <a href="#" class="desktop-item">More</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+          <ul class="drop-menu">
+            <li><a href="#">Drop menu 1</a></li>
+            <li><a href="#">Drop menu 2</a></li>
+            <li><a href="#">Drop menu 3</a></li>
+            <li><a href="#">Drop menu 4</a></li>
+          </ul>
+        </li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+<div class="videocontainer">
+  <section class="video">
+    <video autoplay loop muted plays-inline class="background-clip">
+      <source src="C:\Users\akash\Downloads\3209298-uhd_3840_2160_25fps.mp4" type="video/mp4">
+    </video>
+    <div class="videocontent">
+      <h2>Begin your learning journey right now.</h2>
+      <a href="login.html" id="loginLink">  Login</a>
+    </div>
+  </section>
+</div>
+<!--NEET-->
+  <section>
+    <div class="row">
+      <div class="col-5 courseimg"><a href="neetpage.html" target="_blank"><img class="neetimg" src="image/NEET.jpeg"></a></div>
+      <div class="col-3 coursecenter "><p>Invest in your future. Enroll in our NEET courses and take the first step towards your medical career.</p></div>
+      
+      <div class="col-4 coursedeatail">
+        <div class="box">
+          <div class="heading">NEET</div>
+          <div class="amt">
+            <p>RS.2000</p>
+          </div>
+          <p>Limited time offer</p>
+          <hr>
+          <ul>
+            <li>Access to 25 courses</li>
+            <li>Course Discussions</li>
+            <li>offline viewing</li>
+            <li>Certificate after completion</li>
+            <li>Private sessions</li>
+          </ul>
+          </div>
+  </section>
+<!--JEE-->
+  <section>
+    <div class="row">
+      <div class="col-5 courseimg"><a href="jee.html" target="_blank"><img class="neetimg" src="image/jee(main).jpeg"></a></div>
+      <div class="col-3 coursecenter "><p>Invest in your future. Enroll in our JEE(main) courses and take the first step towards your medical career.</p></div>
+      
+      <div class="col-4 coursedeatail">
+        <div class="box">
+          <div class="heading">JEE</div>
+          <div class="amt">
+            <p>RS.2000</p>
+          </div>
+          <p>Limited time offer</p>
+          <hr>
+          <ul>
+            <li>Access to 25 courses</li>
+            <li>Course Discussions</li>
+            <li>offline viewing</li>
+            <li>Certificate after completion</li>
+            <li>Private sessions</li>
+          </ul>
+          </div>
+  </section>
+  <!--  TNPSC-->
+  <section>
+    <div class="row">
+      <div class="col-5 courseimg"><a href="TNPSC.HTML" target="_blank"><img class="neetimg" src="image/TNPSC.jpg"></a></div>
+      <div class="col-3 coursecenter "><p>Invest in your future. Enroll in our TNPSC courses and take the first step towards your medical career.</p></div>
+      
+      <div class="col-4 coursedeatail">
+        <div class="box">
+          <div class="heading">TNPSC</div>
+          <div class="amt">
+            <p>RS.2000</p>
+          </div>
+          <p>Limited time offer</p>
+          <hr>
+          <ul>
+            <li>Access to 25 courses</li>
+            <li>Course Discussions</li>
+            <li>offline viewing</li>
+            <li>Certificate after completion</li>
+            <li>Private sessions</li>
+          </ul>
+          </div>
+  </section>
+  <!--UPSC-->
+  <section>
+    <div class="row">
+      <div class="col-5 courseimg"><a href="UPSC.HTML" target="_blank"><img class="neetimg" src="image/upsc.jpg"></a></div>
+      <div class="col-3 coursecenter "><p>Invest in your future. Enroll in our NEET courses and take the first step towards your medical career.</p></div>
+      
+      <div class="col-4 coursedeatail">
+        <div class="box">
+          <div class="heading">UPSC</div>
+          <div class="amt">
+            <p>RS.2000</p>
+          </div>
+          <p>Limited time offer</p>
+          <hr>
+          <ul>
+            <li>Access to 25 courses</li>
+            <li>Course Discussions</li>
+            <li>offline viewing</li>
+            <li>Certificate after completion</li>
+            <li>Private sessions</li>
+          </ul>
+          </div>
+  </section>
+   <!--NDA-->
+   <section>
+    <div class="row">
+      <div class="col-5 courseimg"><a href="NDA.HTML" target="_blank"><img class="neetimg" src="image/NDA.jpg"></a></div>
+      <div class="col-3 coursecenter "><p>Invest in your future. Enroll in our NEET courses and take the first step towards your medical career.</p></div>
+      
+      <div class="col-4 coursedeatail">
+        <div class="box">
+          <div class="heading">NDA</div>
+          <div class="amt">
+            <p>RS.2000</p>
+          </div>
+          <p>Limited time offer</p>
+          <hr>
+          <ul>
+            <li>Access to 25 courses</li>
+            <li>Course Discussions</li>
+            <li>offline viewing</li>
+            <li>Certificate after completion</li>
+            <li>Private sessions</li>
+          </ul>
+          </div>
+  </section>
+
+
+  </div>
+  </div>
+  </div>
+
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+<footer class="my-0">
+
+  <!-- Footer -->
+  <div class="text-center text-lg-start text-white footer">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-between p-4" style="background-color: #283b91;">
+      <!-- Left -->
+      <div class="me-auto">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div class="ms-auto">
+        <a href="#" class="text-white me-4"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white me-4"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white me-4"><i class="fab fa-google"></i></a>
+        <a href="#" class="text-white me-4"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white me-4"><i class="fab fa-linkedin"></i></a>
+        <!-- Additional social media icons -->
+        <a href="#" class="text-white me-4"><i class="fab fa-youtube"></i></a>
+        <a href="#" class="text-white me-4"><i class="fab fa-pinterest"></i></a>
+        <a href="#" class="text-white me-4"><i class="fab fa-snapchat"></i></a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold">Company name</h6>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #283b91;; height: 2px">
+          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold">Products</h6>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #283b91;; height: 2px">
+          <p><a href="#" class="text-white">Products 1</a></p>
+          <p><a href="#" class="text-white">Products 2</a></p>
+          <p><a href="#" class="text-white">Products 3</a></p>
+          <p><a href="#" class="text-white">Products 4</a></p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6
+
+ class="text-uppercase fw-bold">Useful links</h6>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #283b91; height: 2px">
+          <p><a href="#" class="text-white">Your Account</a></p>
+          <p><a href="#" class="text-white">Become an Affiliate</a></p>
+          <p><a href="#" class="text-white">Shipping Rates</a></p>
+          <p><a href="#" class="text-white">Help</a></p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold">Contact</h6>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #283b91; height: 2px">
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p><i class="fas fa-envelope me-3"></i> info@example.com</p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Newsletter Subscription Form -->
+    <section class="mt-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <h6 class="text-uppercase fw-bold mb-3">Subscribe to our Newsletter</h6>
+            <form class="newsletter-form">
+              <input type="email" class="form-control" placeholder="Enter your email">
+              <button class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Newsletter Subscription Form -->
+
+ 
+
+    <!-- Google Map -->
+    <section class="mt-4">
+      <div class="container text-center">
+        <h6 class="text-uppercase fw-bold mb-4">Location</h6>
+        <!-- Embed Google Map -->
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.5439008719104!2d80.1480461740978!3d13.064678287259293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526170f2955555%3A0xb10196b8e59648a3!2sSALS%20Educational%20Academy!5e0!3m2!1sen!2sus!4v1712386819651!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- End Google Map -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2024 Copyright:
+      <a class="text-white" href="https://www.salseducation.com/contact.html">salseducation.com</a>
+    </div>
+    <!-- Copyright -->
+  </div>
+  <!-- Footer -->
+
+</footer>
+<!-- End of .container -->
+</body>
+<script>
+document.getElementById("loginLink").addEventListener("mouseenter" ,function(){
+    document.querySelector(".videocontent h2").classList.toggle("large");
+  
+})
+document.getElementById("loginLink").addEventListener("mouseleave" ,function(){
+    document.querySelector(".videocontent h2").classList.toggle("large");
+  
+})
+</script>
+
+</html>

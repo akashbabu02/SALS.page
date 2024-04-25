@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>SALS Educational Academy</title>
+
+  <link rel="icon" href="" type="image/x-icon">
+  <meta name="author" content="SALS - IT CORE TEAM">
+  <meta name="description" content="A Quality of education">
+
+  <!-- Script js -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <nav>
+    <div class="wrapper">
+      <img src="image/WhatsApp_Image_2024-03-01_at_12.13.28_PM-removebg-preview.png" alt="" heigh="12%" width="10%">
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="coursepage2.html" class="desktop-item">Courses</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Mega Menu</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="image/hero section-image.png" alt="">
+              </div>
+              <div class="row">
+                <header>Sub Topic 1</header>
+                <ul class="mega-links">
+                  <li><a href="#">Title 1</a></li>
+                  <li><a href="#">Title 2</a></li>
+                  <li><a href="#">Title 3</a></li>
+                  <li><a href="#">Title 4</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Sub Topic 2</header>
+                <ul class="mega-links">
+                  <li><a href="#">Title 1</a></li>
+                  <li><a href="#">Title 2</a></li>
+                  <li><a href="#">Title 3</a></li>
+                  <li><a href="#">Title 4</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Sub Topic 3</header>
+                <ul class="mega-links">
+                  <li><a href="#">Title 1</a></li>
+                  <li><a href="#">Title 2</a></li>
+                  <li><a href="#">Title 3</a></li>
+                  <li><a href="#">Title 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Teams</a></li>
+        <li>
+          <a href="#" class="desktop-item">More</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+          <ul class="drop-menu">
+            <li><a href="#">Drop menu 1</a></li>
+            <li><a href="#">Drop menu 2</a></li>
+            <li><a href="#">Drop menu 3</a></li>
+            <li><a href="#">Drop menu 4</a></li>
+          </ul>
+        </li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+  <!--Carousel starts here
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="WhatsApp Image 2024-04-09 at 12.04.30 PM.jpeg" class=" w-100 carousel-img">
+            <div class="carousel-caption">
+                <h2>Rohini College of Engineering And Teachnologies</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam doloremque animi, in similique blanditiis rem assumenda repudiandae dolore minima magni expedita, eveniet sed. Fuga nostrum quibusdam tenetur in culpa repellendus.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="WhatsApp Image 2024-04-09 at 12.06.20 PM.jpeg" class=" w-100 carousel-img">
+            <div class="carousel-caption">
+                <h2>Rohini College of Engineering And Teachnologies</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam doloremque animi, in similique blanditiis rem assumenda repudiandae dolore minima magni expedita, eveniet sed. Fuga nostrum quibusdam tenetur in culpa repellendus.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="image/WhatsApp Image 2024-04-09 at 12.06.03 PM.jpeg" class=" w-100 carousel-img">
+            <div class="carousel-caption">
+                <h2>Rohini College of Engineering And Teachnologies</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam doloremque animi, in similique blanditiis rem assumenda repudiandae dolore minima magni expedita, eveniet sed. Fuga nostrum quibusdam tenetur in culpa repellendus.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img src="WhatsApp Image 2024-04-09 at 12.04.30 PM.jpeg" class="d-block w-100 carousel-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Rohini college of Engineering and Teachnologies</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odio dolore nostrum doloremque vitae eos
+            incidunt voluptas, nobis iure ullam natus dolores voluptate maiores facere cum itaque quasi tempore vel!.
+          </p>
+          <a href="rohiniclg.html" target="_blank"></a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="WhatsApp Image 2024-04-09 at 12.04.30 PM.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <video autoplay loop muted plays-inline class="background-clip">
+          <source src="C:\Users\akash\Downloads\3209298-uhd_3840_2160_25fps.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="rohiniclg-heading">
+    SALS Education Campus Drive Achievements at Rohini College of Engineering and Technology
+
+    <p>We are thrilled to announce the outstanding success of the campus recruitment drive conducted by SALS Education
+      at Rohini College of Engineering and Technology. This event marked a significant milestone in our continued
+      efforts to bridge the gap between talented graduates and their dream careers. Here’s a snapshot of our collective
+      achievements:</p>
+
+    <ul>
+      <li>Exceptional Placement Record: The campus drive saw an impressive participation rate from our final year
+        students, with a remarkable 85% of the attendees receiving job offers. This achievement underscores the
+        effectiveness of our rigorous academic programs and the dedication of our students.</li>
+      <li>Diverse Opportunities: SALS Education brought forth a wide array of opportunities across various roles in
+        education technology, content development, marketing, and operations. This diversity not only catered to the
+        varied interests and skills of our students but also highlighted the multidisciplinary excellence cultivated at
+        Rohini College.
+      </li>
+      <li> Competitive Salary Packages: The event set a new benchmark with some of the highest salary packages offered
+        in our campus drive history. The average salary package offered was 20% higher than the previous year, with the
+        top offer reaching an impressive figure that underscores the value of our students in the job market.
+      </li>
+      <li>Skill-Based Hiring: Reflecting a modern approach to recruitment, SALS Education focused on skill and
+        competency-based hiring rather than solely on academic performance. This methodology aligned well with our
+        pedagogical approach, emphasizing practical skills, critical thinking, and adaptability.</li>
+      <li>
+        Industry-Academia Collaboration: The drive facilitated an enhanced partnership between Rohini College and SALS
+        Education, paving the way for future collaborations, including internships, live projects, and guest lectures.
+        This synergy is aimed at keeping our curriculum relevant and industry-focused, ensuring that our students are
+        well-prepared for their professional journeys.
+      </li>
+      <li>Student Development: Leading up to the drive, our students participated in several workshops and seminars
+        conducted by SALS Education, focusing on resume building, interview preparation, and soft skills enhancement.
+        These initiatives significantly boosted their confidence and preparedness for the recruitment process.
+      </li>
+      <li>7. Feedback and Insights: Post-event feedback sessions with SALS Education representatives provided valuable
+        insights into industry expectations and trends. This feedback will be instrumental in further refining our
+        courses and training programs.
+      </li>
+    </ul>
+    <div class="rohiniclg-conclu">
+      <h5>Conclution</h5>
+      <p>The successful campus drive by SALS Education at Rohini College of Engineering and Technology stands as a
+        testament to the potential and readiness of our students to excel in the competitive job market. We extend our
+        heartfelt gratitude to SALS Education for their partnership and to our students, faculty, and the placement cell
+        for making this event a resounding success. We look forward to building on these achievements and to even more
+        successful collaborations in the future.</p>
+    </div>
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <footer class="my-0">
+
+      <!-- Footer -->
+      <div class="text-center text-lg-start text-white footer">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-between p-4" style="background-color: #283b91;">
+          <!-- Left -->
+          <div class="me-auto">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div class="ms-auto">
+            <a href="#" class="text-white me-4"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white me-4"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white me-4"><i class="fab fa-google"></i></a>
+            <a href="#" class="text-white me-4"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white me-4"><i class="fab fa-linkedin"></i></a>
+            <!-- Additional social media icons -->
+            <a href="#" class="text-white me-4"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="text-white me-4"><i class="fab fa-pinterest"></i></a>
+            <a href="#" class="text-white me-4"><i class="fab fa-snapchat"></i></a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">Company name</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #283b91;; height: 2px">
+              <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit.</p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Products</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #283b91;; height: 2px">
+              <p><a href="#" class="text-white">Products 1</a></p>
+              <p><a href="#" class="text-white">Products 2</a></p>
+              <p><a href="#" class="text-white">Products 3</a></p>
+              <p><a href="#" class="text-white">Products 4</a></p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #283b91; height: 2px">
+              <p><a href="#" class="text-white">Your Account</a></p>
+              <p><a href="#" class="text-white">Become an Affiliate</a></p>
+              <p><a href="#" class="text-white">Shipping Rates</a></p>
+              <p><a href="#" class="text-white">Help</a></p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #283b91; height: 2px">
+              <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+              <p><i class="fas fa-envelope me-3"></i> info@example.com</p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Newsletter Subscription Form -->
+        <section class="mt-4">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <h6 class="text-uppercase fw-bold mb-3">Subscribe to our Newsletter</h6>
+                <form class="newsletter-form">
+                  <input type="email" class="form-control" placeholder="Enter your email">
+                  <button class="btn btn-primary">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Newsletter Subscription Form -->
+
+
+
+        <!-- Google Map -->
+        <section class="mt-4">
+          <div class="container text-center">
+            <h6 class="text-uppercase fw-bold mb-4">Location</h6>
+            <!-- Embed Google Map -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.5439008719104!2d80.1480461740978!3d13.064678287259293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526170f2955555%3A0xb10196b8e59648a3!2sSALS%20Educational%20Academy!5e0!3m2!1sen!2sus!4v1712386819651!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </section>
+        <!-- End Google Map -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2024 Copyright:
+          <a class="text-white" href="https://www.salseducation.com/contact.html">salseducation.com</a>
+        </div>
+        <!-- Copyright -->
+      </div>
+      <!-- Footer -->
+
+    </footer>
+    <!-- End of .container -->
+  </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
